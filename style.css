@@ -9,7 +9,18 @@ body {
     background: url(./assets/mountains-universe-1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+}
+
+html.universe body {
+    background: url(./assets/mountains-universe02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html.exploration body {
+    background: url(./assets/mountains-universe-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -24,4 +35,48 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: transparent;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10%;
+    margin-bottom: 16px;
+    margin-top: 64px;
+}
+
+p {
+    font-size: 18px;
+    color: #fff;
+    width: 50%;
+    margin-left: 10%;
 }
